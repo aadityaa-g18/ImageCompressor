@@ -1,0 +1,32 @@
+name: image_compressor_app
+description: A Flutter app for compressing images
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Image picking and compression
+  image_picker: ^1.0.4
+  flutter_image_compress: ^2.0.4
+  
+  # File system and permissions
+  path_provider: ^2.1.1
+  permission_handler: ^11.0.1
+  
+  # Gallery saving
+  gal: ^2.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
